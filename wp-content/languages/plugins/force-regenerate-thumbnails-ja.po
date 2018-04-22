@@ -1,0 +1,178 @@
+# Translation of Plugins - Force Regenerate Thumbnails - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Force Regenerate Thumbnails - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-09 10:15:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Force Regenerate Thumbnails - Development (trunk)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.pedroelsner.com/"
+msgstr "http://www.pedroelsner.com/"
+
+#. Author of the plugin/theme
+msgid "Pedro Elsner"
+msgstr "Pedro Elsner"
+
+#. Description of the plugin/theme
+msgid "Delete and REALLY force the regenerate thumbnail."
+msgstr "画像のサムネイルを削除し、再生成を完全強制します。"
+
+#. Plugin URI of the plugin/theme
+msgid "http://pedroelsner.com/2012/08/forcando-a-atualizacao-de-thumbnails-no-wordpress"
+msgstr "http://pedroelsner.com/2012/08/forcando-a-atualizacao-de-thumbnails-no-wordpress"
+
+#: force-regenerate-thumbnails.php:678
+msgid "(ID %s)<br />%s"
+msgstr "(ID %s)<br />%s"
+
+#: force-regenerate-thumbnails.php:650
+msgid "<br />Successfully regenerated in %s seconds"
+msgstr "<br />%s秒で再生成に成功"
+
+#: force-regenerate-thumbnails.php:648
+msgid "<br />Regenerate: %s</span>"
+msgstr "<br />再生成: %s</span>"
+
+#: force-regenerate-thumbnails.php:645
+msgid "<br /><span style=\"color: #DD3D36;\">Please, check the folder permission (chmod 777): %s</span>"
+msgstr "<br /><span style=\"color: #DD3D36;\">フォルダーの権限を確認してください (chmod 777): %s</span>"
+
+#: force-regenerate-thumbnails.php:644
+msgid "<br /><b><span style=\"color: #DD3D36;\">Deleted error: %s</span></b>"
+msgstr "<br /><b><span style=\"color: #DD3D36;\">削除済みエラー: %s</span></b>"
+
+#: force-regenerate-thumbnails.php:641
+msgid "<br />Deleted: %s"
+msgstr "<br />削除済み: %s"
+
+#: force-regenerate-thumbnails.php:638
+msgid "<code>Image Debug 4: %s</code><br />"
+msgstr "<code>画像デバッグ 4: %s</code><br />"
+
+#: force-regenerate-thumbnails.php:636
+msgid "<code>Image Debug 3: %s</code><br />"
+msgstr "<code>画像デバッグ 3: %s</code><br />"
+
+#: force-regenerate-thumbnails.php:634
+msgid "<code>Image Debug 2: %s</code><br />"
+msgstr "<code>画像デバッグ 2: %s</code><br />"
+
+#: force-regenerate-thumbnails.php:632
+msgid "<code>Image: %s</code><br />"
+msgstr "<code>画像: %s</code><br />"
+
+#: force-regenerate-thumbnails.php:631
+msgid "<code>BaseUrl: %s</code><br />"
+msgstr "<code>ベース URL: %s</code><br />"
+
+#: force-regenerate-thumbnails.php:630
+msgid "<code>BaseDir: %s</code><br />"
+msgstr "<code>ベースディレクトリ: %s</code><br />"
+
+#: force-regenerate-thumbnails.php:626
+msgid "<b>&quot;%s&quot; (ID %s)</b>"
+msgstr "<b>&quot;%s&quot; (ID %s)</b>"
+
+#: force-regenerate-thumbnails.php:576
+msgid "Unknown failure reason."
+msgstr "不明なエラーです。"
+
+#: force-regenerate-thumbnails.php:483
+msgid "The originally uploaded image file cannot be found."
+msgstr "元のアップロードされた画像ファイルが見つかりません。"
+
+#: force-regenerate-thumbnails.php:480 force-regenerate-thumbnails.php:504
+#: force-regenerate-thumbnails.php:507
+msgid "The originally uploaded image file cannot be found at &quot;%s&quot;."
+msgstr "アップロードされた元の画像ファイルが &quot;%s&quot; に見つかりません。"
+
+#: force-regenerate-thumbnails.php:452
+msgid "Your user account does not have permission to regenerate images."
+msgstr "現在のアカウントには画像を再生成する権限がありません。"
+
+#: force-regenerate-thumbnails.php:444 force-regenerate-thumbnails.php:448
+msgid "Failed: %d is an invalid image ID."
+msgstr "失敗: %d は無効な画像 ID です。"
+
+#: force-regenerate-thumbnails.php:412
+msgid "You can regenerate all thumbnails for specific images from the <a href='%s'>Media</a> page. (WordPress 3.1+ only)"
+msgstr "<a href='%s'>メディア</a>画面から特定の画像のすべてのサムネイルを再生成できます (WordPress 3.1 以降のみ) 。"
+
+#: force-regenerate-thumbnails.php:406
+msgid "Regenerate All Thumbnails"
+msgstr "すべてのサムネイルを再生成する"
+
+#: force-regenerate-thumbnails.php:402
+msgid "Pressing the follow button, you can regenerate thumbnails for all images that you have uploaded to your blog."
+msgstr "以下のボタンをクリックすると、ブログにアップロードしたすべての画像のサムネイルを再生成できます。"
+
+#: force-regenerate-thumbnails.php:313
+msgid "Stopping..."
+msgstr "停止中…"
+
+#: force-regenerate-thumbnails.php:282
+msgid "Failure: %s"
+msgstr "失敗: %s"
+
+#: force-regenerate-thumbnails.php:281
+msgid "Success: %s"
+msgstr "成功: %s"
+
+#: force-regenerate-thumbnails.php:280
+msgid "Total: %s"
+msgstr "合計: %s"
+
+#: force-regenerate-thumbnails.php:277
+msgid "Process Information"
+msgstr "プロセス情報"
+
+#: force-regenerate-thumbnails.php:275
+msgid "Abort Process"
+msgstr "プロセスを中止"
+
+#: force-regenerate-thumbnails.php:269 force-regenerate-thumbnails.php:405
+msgid "You must enable Javascript in order to proceed!"
+msgstr "続けるには JavaScript を有効化する必要があります !"
+
+#: force-regenerate-thumbnails.php:266
+msgid "All done! %1$s image(s) were successfully resized in %2$s seconds and there were 0 failures. %3$s"
+msgstr "すべて完了しました ! %1$s個の画像を%2$s秒でリサイズし、失敗したものはありませんでした。%3$s"
+
+#: force-regenerate-thumbnails.php:265
+msgid "All done! %1$s image(s) were successfully resized in %2$s seconds and there were %3$s failure(s). To try regenerating the failed images again, <a href=\"%4$s\">click here</a>. %5$s"
+msgstr "すべて完了しました ! %1$s個の画像を%2$s秒でリサイズし、失敗は%3$s個ありました。失敗した画像の再生成をもう一度試すには<a href=\"%4$s\">ここをクリックしてください</a>。%5$s"
+
+#: force-regenerate-thumbnails.php:262
+msgid "To go back to the previous page, <a href=\"%s\">click here</a>."
+msgstr "前のページに戻るには、<a href=\"%s\">ここをクリックしてください</a>。"
+
+#: force-regenerate-thumbnails.php:258
+msgid "Please be patient while the thumbnails are regenerated. You will be notified via this page when the regenerating is completed."
+msgstr "サムネイルを再生している間、しばらくお待ちください。再生成の完了次第このページでお知らせします。"
+
+#: force-regenerate-thumbnails.php:246
+msgid "Unable to find any images. Are you sure <a href='%s'>some exist</a>?"
+msgstr "画像が見つかりません。本当に<a href='%s'>画像はありますか</a> ?"
+
+#: force-regenerate-thumbnails.php:231
+msgid "Cheatin&#8217; uh?"
+msgstr "間違えましたか?"
+
+#: force-regenerate-thumbnails.php:134
+msgid "Regenerate the thumbnails for this single image"
+msgstr "この画像のサムネイルを再生成する"
+
+#. #-#-#-#-#  tmp-force-regenerate-thumbnails.pot (Force Regenerate Thumbnails
+#. 2.0.5)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: force-regenerate-thumbnails.php:91 force-regenerate-thumbnails.php:134
+#: force-regenerate-thumbnails.php:155 force-regenerate-thumbnails.php:178
+#: force-regenerate-thumbnails.php:222
+msgid "Force Regenerate Thumbnails"
+msgstr "Force Regenerate Thumbnails"

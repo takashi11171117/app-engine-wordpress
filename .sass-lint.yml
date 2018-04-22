@@ -1,0 +1,45 @@
+options:
+  formatter: stylish
+  merge-default-rules: false
+rules:
+  indentation:
+    - 1
+    - size: 4
+  mixins-before-declarations: 1
+  nesting-depth:
+    - 1
+    - max-depth: 4
+  no-css-comments: 0
+  no-duplicate-properties:
+    - 1
+    -
+      exclude:
+        - src
+  no-empty-rulesets: 1
+  no-extends: 1
+  no-ids: 2
+  no-important: 0
+  no-misspelled-properties:
+    - 1
+  no-vendor-prefixes: 2
+  placeholder-in-extend: 2
+  quotes:
+    - 1
+    - style: double
+  space-after-colon:
+    - 1
+    - include: true
+  space-after-comma: 1
+  space-before-bang:
+    - 1
+    - include: true
+  space-before-brace:
+    - 1
+    - include: true
+  space-before-colon: 1
+  space-between-parens:
+    - 1
+    - include: false
+  trailing-semicolon: 1
+  url-quotes: 1
+  zero-unit: 1

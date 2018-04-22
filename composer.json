@@ -9,7 +9,11 @@
     "require-dev": {
         "guzzlehttp/guzzle": "~6.0",
         "phpunit/phpunit": "~4",
-        "symfony/browser-kit": "~2"
+        "symfony/browser-kit": "~2",
+        "phing/phing": "^2.16",
+        "squizlabs/php_codesniffer": "2.*",
+        "phpmd/phpmd": "^2.6",
+        "sebastian/phpcpd": "2.*"
     },
     "autoload": {
         "psr-4": { "Google\\Cloud\\Helper\\": "src/",

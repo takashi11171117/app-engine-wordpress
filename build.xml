@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="blog" default="build">
+
+    <property name="outputDir" value="./result/" override="false"/>
+    <property name="appdir" value="./wp-content/themes/default_theme" />
+    <property name="basedir" value="." />
+
+    <target name="phpcs" description="PHPCS">
+      <phpcodesniffer standard="PSR2" file="${appdir}" allowedFileExtensions="php">
+        <formatter type="checkstyle" outfile="${outputDir}/phpcs.xml" />
+      </phpcodesniffer>
+    </target>
+    <target name="phpmd" description="PHPMD">
+      <exec dir="${basedir}" executable="vendor/bin/phpmd" output="${outputDir}/phpmd.log">
+        <arg line="${appdir}" />
+        <arg line="xml" />
+        <arg line="${basedir}/phpmd-rule.xml" />
+        <arg line="--reportfile ${outputDir}/phpmd.xml" />
+        <arg line="--suffixes php" />
+      </exec>
+    </target>
+    <target name="phpcpd" description="PHPCPD">
+      <exec dir="${basedir}" executable="vendor/bin/phpcpd" output="${outputDir}/phpcpd.log">
+        <arg line="--log-pmd ${outputDir}/phpcpd.xml" />
+        <arg line="--names *.php,*.phtml" />
+        <arg line="${appdir}" />
+      </exec>
+    </target>
+
+    <target name="build" depends="phpcs,phpmd,phpcpd" />
+
+</project>

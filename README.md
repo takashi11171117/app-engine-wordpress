@@ -1,3 +1,4 @@
+##Configure Google Cloud
 Configure Google Cloud SDK with your account and the appropriate project ID:
 
 ```
@@ -146,4 +147,19 @@ You can set a `WP_CLI_PHP_ARGS` environment variable to add
 
 ```
 $ export WP_CLI_PHP_ARGS='-d include_path=vendor/google/appengine-php-sdk'
+```
+
+##Configure Docker
+Start docker container
+
+```
+$ cd docker-appengine
+$ cd docker-compose up -d
+```
+
+##Setting Wordpress
+Install plugin
+
+```
+$ sh plugin.sh
 ```
